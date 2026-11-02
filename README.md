@@ -12,14 +12,17 @@ There is no build step, package manager, third-party script, font request or ana
 
 ## Documents
 
-The landing page reserves a section for support and privacy information. Those documents are intentionally not published yet. Before the App Store release:
+- `support/index.html`: calculator and profile help, troubleshooting and the public support contact.
+- `privacy/index.html`: privacy policy covering on-device app data, support correspondence and GitHub Pages hosting.
 
-1. Add `support/index.html` with support details and actual contact information.
-2. Add `privacy/index.html` with the reviewed privacy policy.
-3. Replace the “not published yet” message with links to those pages.
-4. Use the resulting `/rangr-site/support/` and `/rangr-site/privacy/` URLs in App Store Connect and add policy access within the app.
+The pages are linked from the home page and shared footers. They are intended for these App Store Connect fields once published:
 
-Do not use this landing page's temporary document section as a completed App Store support page or privacy policy.
+- Support URL: `https://deework.github.io/rangr-site/support/`
+- Privacy Policy URL: `https://deework.github.io/rangr-site/privacy/`
+
+The public support and privacy contact address is `support@dee.work`, as approved by the owner. The privacy policy describes the actual current app rather than a policy for data collection the app does not perform. Keep it up to date if SDKs, analytics, cloud storage or support practices change.
+
+App Store submission also needs privacy-policy access within the app. Publishing this website does not add that app link automatically.
 
 ## Media
 
