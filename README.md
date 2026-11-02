@@ -26,6 +26,6 @@ App Store submission also needs privacy-policy access within the app. Publishing
 
 ## Media
 
-The screenshots and 28-second preview show the actual app. Example vehicle consumption figures are user-entered inputs, not measured specifications for a particular vehicle. The website and app are currently in preparation for the first App Store release.
+The screenshots and 28-second preview show the actual app. The preview starts with a calculation and slider adjustment, then adds a second car and changes its consumption, capacity, trip distance and charge levels. Footage plays at its original speed. Example vehicle consumption figures are user-entered inputs, not measured specifications for a particular vehicle. The website and app are currently in preparation for the first App Store release.
 
 To preview locally, open `index.html` in a browser. All asset references are relative, so the site also works under GitHub Pages' project path.
